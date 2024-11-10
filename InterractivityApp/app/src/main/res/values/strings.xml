@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">InterractivityApp</string>
+    <string name="interractivityapp">InterractivityApp</string>
+    <string name="recherche_google">Recherche Google</string>
+    <string name="t_l_phoner">Téléphoner</string>
+    <string name="recevoir">Recevoir</string>
+    <string name="envoyer">Envoyer</string>
+    <string name="envoyer_un_sms">Envoyer un SMS</string>
+</resources>

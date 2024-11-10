@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomText">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Large</item>
+        <item name="android:textColor">@color/cardview_dark_background</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="CustomTextEnfant" parent="@style/CustomText">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+
+</resources>

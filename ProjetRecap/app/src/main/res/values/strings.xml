@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ProjetRecap</string>
+    <string name="connectez_vous">Connectez-vous</string>
+    <string name="image_main_activity">Image main activity</string>
+    <string name="e_mail">E-mail</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="se_souvenir_de_moi">Se souvenir de moi</string>
+    <string name="connexion">Connexion</string>
+    <string name="pas_de_compte_inscrivez_vous">Pas de compte ? Inscrivez-vous</string>
+</resources>

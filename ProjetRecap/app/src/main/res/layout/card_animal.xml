@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    android:backgroundTint="#BFC2CE"
+    android:elevation="8dp"
+    android:radius="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/black"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/avatType"
+            android:layout_width="46dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="15dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/lion" />
+
+        <LinearLayout
+            android:layout_width="111dp"
+            android:layout_height="68dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/cardAnimType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Type" />
+
+            <TextView
+                android:id="@+id/cardAnimNom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nom" />
+
+            <TextView
+                android:id="@+id/cardAnimIsFed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IsFed" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/informations" />
+
+        <ImageView
+            android:id="@+id/icoTel"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/appel" />
+
+        <ImageView
+            android:id="@+id/icoSupprimer"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/poubelle_symbole_noir" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

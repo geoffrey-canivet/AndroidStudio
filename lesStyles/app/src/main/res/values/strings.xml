@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">lesStyles</string>
+    <string name="texte_avec_un_style_custon">Texte avec style custon (parent)</string>
+</resources>

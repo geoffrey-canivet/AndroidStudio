@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GestionContacts</string>
+    <string name="nouveau_contact">Nouveau contact</string>
+    <string name="contacs">Carnet de Contacts</string>
+</resources>
